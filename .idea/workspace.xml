@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e46132-3970-49a9-930c-fccb6b096ea5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Form1.html" afterPath="$PROJECT_DIR$/Public/Form1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Form3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Form2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/Form2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#h1#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#4099#4107#0" expanded="true" />
@@ -36,6 +37,23 @@
                 <element signature="e#7929#7937#0" expanded="true" />
                 <element signature="e#7937#7945#0" expanded="true" />
                 <element signature="e#8837#8845#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Form3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/Form3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#h1#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2131#2139#0" expanded="true" />
+                <element signature="e#2139#2147#0" expanded="true" />
+                <element signature="e#2553#2561#0" expanded="true" />
+                <element signature="e#2898#2906#0" expanded="true" />
+                <element signature="e#2906#2914#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,6 +76,7 @@
       <list>
         <option value="$PROJECT_DIR$/Public/Form2.html" />
         <option value="$PROJECT_DIR$/Public/Form1.html" />
+        <option value="$PROJECT_DIR$/Public/Form3.html" />
       </list>
     </option>
   </component>
@@ -316,12 +335,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485209218001</updated>
-      <workItem from="1485209223783" duration="1368000" />
+      <workItem from="1485209223783" duration="1639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1368000" />
+    <option name="totallyTimeSpent" value="1639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="46" width="1346" height="702" extended-state="0" />
@@ -367,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/Form2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#h1#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#4099#4107#0" expanded="true" />
@@ -376,6 +395,21 @@
             <element signature="e#7929#7937#0" expanded="true" />
             <element signature="e#7937#7945#0" expanded="true" />
             <element signature="e#8837#8845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Form3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#h1#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2131#2139#0" expanded="true" />
+            <element signature="e#2139#2147#0" expanded="true" />
+            <element signature="e#2553#2561#0" expanded="true" />
+            <element signature="e#2898#2906#0" expanded="true" />
+            <element signature="e#2906#2914#0" expanded="true" />
           </folding>
         </state>
       </provider>
