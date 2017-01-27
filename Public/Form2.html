@@ -1,140 +1,125 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>    Cadastro de Cliente </title>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title></title>
+
+    <title>Cadastro de Clientes</title>
 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <script src="../vendor/twbs/bootstrap/dist/js/bootstrap.js"></script>
 
     <link rel="stylesheet" href="../vendor/twbs/bootstrap/dist/css/bootstrap.css">
     <!--[if lt IE 9]
-         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-     <![endif]-->
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
 </head>
 <body>
-<div class="wrapper">
-    <div class="content-wrapper">
-        <section class="content-header">
-            <h1>
-                Cliente
-                <h5>    Cadastro de novo cliente
-                </h5>
-                <div class="form-inline pull-right" style="margin-left: 5px;">
-                </div>
-            </h1>
-        </section>
-        <section class="content">
-            <div class="box box-primary">
-                <div class="box-header with-border">
-                    <h3 class="box-title">Novo Cliente</h3>
-                </div><!-- /.box-header -->
-                <div class="box-body">
-                    <div class="container-fluid">
-                        <form method="POST" action="#" accept-charset="UTF-8">
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="nome" class="control-label">Nome*</label>
-                                    <input class="form-control" required="required" placeholder="Ex: João Oliveira" name="nome" type="text" id="nome">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-8">
-                                    <label for="email" class="control-label">Email*</label>
-                                    <input class="form-control" required="required" placeholder="Ex: joao@email.com" name="email" type="text" id="email">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="tipoemail" class="control-label">Tipo de Email*</label>
-                                    <select class="form-control" required="required" id="tipoemail" name="tipoemail"><option value="comercial">Comercial</option><option value="particular">Particular</option></select>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-4">
-                                    <label for="tipologradouro" class="control-label">Logradouro*</label>
-                                    <select class="form-control" required="required" id="tipologradouro" name="tipologradouro"><option value="1">Rua</option><option value="2">Avenida</option><option value="3">Alameda</option><option value="4">Conjunto</option><option value="5">Quadra</option><option value="6">Loteamento</option><option value="7">Parque</option><option value="8">Condomínio</option><option value="9">Rodovia</option><option value="10">Recanto</option><option value="11">Residencial</option></select>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="logradouro" class="control-label">Nome*</label>
-                                    <input class="form-control" required="required" placeholder="Ex: Rua Caxias" name="logradouro" type="text" id="logradouro">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="numero" class="control-label">N&uacute;mero*</label>
-                                    <input class="form-control" required="required" placeholder="Ex: 15A" name="numero" type="text" id="numero">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-8">
-                                    <label for="complemento" class="control-label">Complemento*</label>
-                                    <input class="form-control" required="required" placeholder="Ex: Próximo à Uema" name="complemento" type="text" id="complemento">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="tipoendereco" class="control-label">Tipo de Endere&ccedil;o*</label>
-                                    <select class="form-control" required="required" id="tipoendereco" name="tipoendereco"><option value="comercial">Comercial</option><option value="particular">Particular</option></select>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-4">
-                                    <label for="bairro" class="control-label">Bairro*</label>
-                                    <input class="form-control" required="required" placeholder="Ex: Cidade Operária" name="bairro" type="text" id="bairro">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="cidade" class="control-label">Cidade*</label>
-                                    <input class="form-control" required="required" placeholder="Ex: São Luís" name="cidade" type="text" id="cidade">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="estado" class="control-label">Estado*</label>
-                                    <select class="form-control" required="required" id="estado" name="estado"><option value="1">Acre</option><option value="2">Alagoas</option><option value="3">Amapá</option><option value="4">Amazonas</option><option value="5">Bahia</option><option value="6">Ceará</option><option value="7">Distrito Federal</option><option value="8">Espiríto Santo</option><option value="9">Goiás</option><option value="10">Maranhão</option><option value="11">Mato Grosso</option><option value="12">Mato Grosso do Sul</option><option value="13">Minas Gerais</option><option value="14">Paraná</option><option value="15">Paraíba</option><option value="16">Pará</option><option value="17">Pernambuco</option><option value="18">Piauí</option><option value="19">Rio de Janeiro</option><option value="20">Rio Grande do Norte</option><option value="21">Rio Grande do Sul</option><option value="22">Rondônia</option><option value="23">Roraima</option><option value="24">Santa Catarina</option><option value="25">Sergipe</option><option value="26">São Paulo</option><option value="27">Tocantins</option></select>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="telefone" class="control-label">Telefone*</label>
-                                    <input class="form-control" required="required" placeholder="Ex: (98) 12345-6789" size="10" name="telefone" type="text" id="telefone">
-                                </div>
-                                <div class="form-group col-md-3">
-                                    <label for="descricaotelefone" class="control-label">Descri&ccedil;&atilde;o do Telefone</label>
-                                    <input class="form-control" placeholder="Ex: Ligar em horário comercial" name="descricaotelefone" type="text" id="descricaotelefone">
-                                </div>
-                                <div class="form-group col-md-3">
-                                    <label for="tipotelefone" class="control-label">Tipo de Telefone*</label>
-                                    <select class="form-control" required="required" id="tipotelefone" name="tipotelefone"><option value="celular">Celular</option><option value="fixo">Fixo</option></select>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-3">
-                                    <label for="tipopessoa" class="control-label">Pessoa Jur&iacute;dica ?</label>
-                                    <select class="form-control" required="required" id="tipopessoa" name="tipopessoa"><option value="1">Sim</option><option value="0" selected="selected">Não</option></select>
-                                </div>
-                                <div class="dinamic-form">
-                                    <div class="form-group col-md-6">
-                                        <label for="rg" class="control-label">RG*</label>
-                                        <input class="form-control" required="required" placeholder="Ex: 012345678910-0" size="13" name="rg" type="text" id="rg">
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cpf" class="control-label">CPF*</label>
-                                        <input class="form-control" required="required" placeholder="Ex: 123.456.789-10" size="11" name="cpf" type="text" id="cpf">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="divider"></div>
-                            <div class="row">
-                                <div class="col-md-2 pull-right">
-                                    <button type="submit" class="btn btn-block btn-success btn">Salvar</button>
-                                </div>
-                            </div>
+<div class="container">
+    <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-12 col-sm-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="panel-title animacao">Cadastro de Produto</div>
+            </div>
 
-                        </form>
+            <div style="padding-top:30px" class="panel-body">
+
+                <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                <form method="POST" action="#" accept-charset="UTF-8">
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            <label for="nome" class="control-label">Nome*</label>
+                            <input class="form-control" required="required" placeholder="Ex: João Oliveira" name="nome" type="text" id="nome">
+                        </div>
                     </div>
-                </div><!-- /.box-body -->
+                    <div class="row">
+                        <div class="form-group col-md-8">
+                            <label for="email" class="control-label">Email*</label>
+                            <input class="form-control" required="required" placeholder="Ex: joao@email.com" name="email" type="text" id="email">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="tipoemail" class="control-label">Tipo de Email*</label>
+                            <select class="form-control" required="required" id="tipoemail" name="tipoemail"><option value="comercial">Comercial</option><option value="particular">Particular</option></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label for="tipologradouro" class="control-label">Logradouro*</label>
+                            <select class="form-control" required="required" id="tipologradouro" name="tipologradouro"><option value="1">Rua</option><option value="2">Avenida</option><option value="3">Alameda</option><option value="4">Conjunto</option><option value="5">Quadra</option><option value="6">Loteamento</option><option value="7">Parque</option><option value="8">Condomínio</option><option value="9">Rodovia</option><option value="10">Recanto</option><option value="11">Residencial</option></select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="logradouro" class="control-label">Nome*</label>
+                            <input class="form-control" required="required" placeholder="Ex: Rua Caxias" name="logradouro" type="text" id="logradouro">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="numero" class="control-label">N&uacute;mero*</label>
+                            <input class="form-control" required="required" placeholder="Ex: 15A" name="numero" type="text" id="numero">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-8">
+                            <label for="complemento" class="control-label">Complemento*</label>
+                            <input class="form-control" required="required" placeholder="Ex: Próximo à Uema" name="complemento" type="text" id="complemento">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="tipoendereco" class="control-label">Tipo de Endere&ccedil;o*</label>
+                            <select class="form-control" required="required" id="tipoendereco" name="tipoendereco"><option value="comercial">Comercial</option><option value="particular">Particular</option></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label for="bairro" class="control-label">Bairro*</label>
+                            <input class="form-control" required="required" placeholder="Ex: Cidade Operária" name="bairro" type="text" id="bairro">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="cidade" class="control-label">Cidade*</label>
+                            <input class="form-control" required="required" placeholder="Ex: São Luís" name="cidade" type="text" id="cidade">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="estado" class="control-label">Estado*</label>
+                            <select class="form-control" required="required" id="estado" name="estado"><option value="1">Acre</option><option value="2">Alagoas</option><option value="3">Amapá</option><option value="4">Amazonas</option><option value="5">Bahia</option><option value="6">Ceará</option><option value="7">Distrito Federal</option><option value="8">Espiríto Santo</option><option value="9">Goiás</option><option value="10">Maranhão</option><option value="11">Mato Grosso</option><option value="12">Mato Grosso do Sul</option><option value="13">Minas Gerais</option><option value="14">Paraná</option><option value="15">Paraíba</option><option value="16">Pará</option><option value="17">Pernambuco</option><option value="18">Piauí</option><option value="19">Rio de Janeiro</option><option value="20">Rio Grande do Norte</option><option value="21">Rio Grande do Sul</option><option value="22">Rondônia</option><option value="23">Roraima</option><option value="24">Santa Catarina</option><option value="25">Sergipe</option><option value="26">São Paulo</option><option value="27">Tocantins</option></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="telefone" class="control-label">Telefone*</label>
+                            <input class="form-control" required="required" placeholder="Ex: (98) 12345-6789" size="10" name="telefone" type="text" id="telefone">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="descricaotelefone" class="control-label">Descri&ccedil;&atilde;o do Telefone</label>
+                            <input class="form-control" placeholder="Ex: Ligar em horário comercial" name="descricaotelefone" type="text" id="descricaotelefone">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="tipotelefone" class="control-label">Tipo de Telefone*</label>
+                            <select class="form-control" required="required" id="tipotelefone" name="tipotelefone"><option value="celular">Celular</option><option value="fixo">Fixo</option></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <label for="tipopessoa" class="control-label">Pessoa Jur&iacute;dica ?</label>
+                            <select class="form-control" required="required" id="tipopessoa" name="tipopessoa"><option value="1">Sim</option><option value="0" selected="selected">Não</option></select>
+                        </div>
+                        <div class="dinamic-form">
+                            <div class="form-group col-md-6">
+                                <label for="rg" class="control-label">RG*</label>
+                                <input class="form-control" required="required" placeholder="Ex: 012345678910-0" size="13" name="rg" type="text" id="rg">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label for="cpf" class="control-label">CPF*</label>
+                                <input class="form-control" required="required" placeholder="Ex: 123.456.789-10" size="11" name="cpf" type="text" id="cpf">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col-md-2 pull-right">
+                            <button type="submit" class="btn btn-block btn-success btn">Salvar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="text-center">
-            </div>
-        </section>
+        </div>
     </div>
 </div>
 </body>
